@@ -17,7 +17,7 @@ const configstream = () => {
         alert("You live place blank!!")
         return 
       }
-      if(values.startnow) router.push(`http://localhost:3000/conference?roomID=${values.roomid}&role=Host`)
+      if(values.startnow) router.push(`https://confyv.vercel.app/conference?roomID=${values.roomid}&role=Host`)
       console.log(JSON.stringify(values, null, 2));
       if(!values.startnow){
         
