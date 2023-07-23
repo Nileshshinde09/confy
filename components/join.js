@@ -13,7 +13,7 @@ const joinSession = () => {
         alert("You Entered Nothing!!")
         return 
       }
-      router.push(`http://localhost:3000/conference?roomID=${values.roomid}&role=${values.role}`)
+      router.push(`https://confyv.vercel.app/conference?roomID=${values.roomid}&role=${values.role}`)
       // console.log(JSON.stringify(values, null, 2));
       
     },
